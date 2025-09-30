@@ -1,18 +1,13 @@
-const int ledPin = 13; // Define the digital pin the LED is connected to
+const int ledPin = 13; // Definir el pin led
 
 void setup() {
-  pinMode(ledPin, OUTPUT); // Set the LED pin as an output
+  pinMode(ledPin, OUTPUT); // definir el pin elegido como OUTPUT
 }
 
 void loop() {
-  // Blink the LED 5 times
-  for (int i = 0; i < 5; i++) {
-    digitalWrite(ledPin, HIGH); // Turn the LED on
-    delay(200);                 // Wait for 200 milliseconds
-    digitalWrite(ledPin, LOW);  // Turn the LED off
-    delay(200);                 // Wait for 200 milliseconds
+  while (true) { // loop infinito
+    digitalWrite(ledPin, HIGH); // encender
+    delay(1000);                // esperar 1 segundo (1000ms=1s)
+    digitalWrite(ledPin, LOW);  // apagar
+    delay(1000);                // esperar 1 segundo (1000ms=1s)
   }
-
-  // After blinking 5 times, keep the LED off for a longer period
-  delay(2000); // Wait for 2 seconds before the next sequence of blinks
-}
