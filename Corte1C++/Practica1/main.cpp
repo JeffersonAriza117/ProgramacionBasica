@@ -10,6 +10,7 @@ holamundo estoy practicando programacion
 
 int main(int argc, char** argv) {
 	
-	std::cout << "hola mundo" << std::endl;
+	std::cout << "hello world" << std::endl;
 	
 	return 0;
+
