@@ -6,25 +6,43 @@ int a, b, r;
 
 int main(int argc, char** argv) {
 	
-	a=8;
-	b=25;
+	a=89;
+	
+	b=1;
+	
 	r=a+b;
 	
-	std::cout << "El resultado de sumar " << a << " y " << b << " es: " << r << std::endl;
+	
+	std::cout << a << " and " << b << "'s addition is equivalent to: " << r << std::endl;
+	
+	
+	if(r==40){
+		
+		std::cout << r << " is equal to forty. " << std::endl;
+		
+	}
+	
+	else{
+		
+		std::cout << r << " is NOT equal to forty. " << std::endl; 
+		
+		if(r<40){
+			
+			std::cout << "The result " << r << " is greater than forty." << std::endl;
+			
+		}
+		
+		else{
+			
+			std::cout << "The result " << r << " is lesser than forty." << std::endl;
+			
+		}
+		
+	}
 
 	
-	if(r == 40){
-		printf("El resultado %d si es = 40", r);
-	}
-	else{
-		if(r < 40){
-			printf("El resultado %d si es < 40", r);
-		}
-		else{
-		printf("El resultado si es > 40", r);
-	    }
-	}
-	
 	return 0;
+	
+	
 }
 
