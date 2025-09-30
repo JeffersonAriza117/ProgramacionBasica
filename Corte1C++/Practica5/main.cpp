@@ -7,8 +7,9 @@ int main(int argc, char** argv) {
 	
 	int i;
 	
-	cout << "hoal";
+	cout << "hello";
 	
 	return 0;
 	
 }
+
