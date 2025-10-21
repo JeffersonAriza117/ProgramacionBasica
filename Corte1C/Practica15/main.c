@@ -3,13 +3,13 @@
 
 int main() {
 	
-	int myNumbers[] = {25, 50, 75, 100}; // valores de la cadena establecidos como enteros
+	int myNumbers[] = {25, 50, 75, 100};
 	
-	int i; // establecer i como entero
+	int i;
 	
-	for (i = 0; i < 4; i++) { // loop para imprimir cada valor de la cadena. i++ se encarga de cambiar el valor de i para imprimir el siguiente valr
+	for (i = 0; i < 4; i++) {
 		
-	  printf("%d\n", myNumbers[i]); //imprime con espacio
+	  printf("%d\n", myNumbers[i]);
 	  
 	}
 	
