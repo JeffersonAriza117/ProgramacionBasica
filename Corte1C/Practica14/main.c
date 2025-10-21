@@ -3,11 +3,11 @@
 
 int main() {
 	
-	int myNumbers[] = {10, 25, 50, 75, 100}; // se declara el Array
+	int myNumbers[] = {10, 25, 50, 75, 100};
 	
-	int length = sizeof(myNumbers) / sizeof(myNumbers[0]); // formula para hallar la cantidad de numeros en el Array
+	int length = sizeof(myNumbers) / sizeof(myNumbers[0]);
 
-	printf("%d", length);  // Length = Cantidad de elementos del Array
+	printf("%d", length);
 	
 	return 0;
 }
